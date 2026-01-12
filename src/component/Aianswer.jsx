@@ -34,8 +34,8 @@ function Aianswer({comingFromSibling}){
 
     return(
         <div style={{display: box ? "flex" : "none" }}>
-            <div className="inline sm:flex">
-                <div className="sm:h-[95vh] sm:rounded-2xl sm:w-[35%] sm:mt-4 sm:mb-4 sm:ml-4">
+            <div className="inline sm:flex w-full">
+                <div className="sm:h-[95vh] sm:rounded-2xl sm:w-[35%] sm:mt-4 sm:mb-4 sm:ml-4 h-[95vh]">
                 <div className="overflow-x-auto m-4 h-[89%] sm:overflow-x-auto sm:h-[89%] sm:m-4">
                     <SyntaxHighlighter 
                         language="html" 

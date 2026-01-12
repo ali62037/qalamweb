@@ -13,9 +13,12 @@ function First({sendToParent}) {
   let {setValue} = useContext(apiContext)
   
   function hides(){
-    setHide(!hide)
-    sendToParent(hide)
-    setValue(promp)
+    if(promp){
+      setHide(!hide)
+      sendToParent(hide)
+      setValue(promp)
+    }
+    
     
     
   }
