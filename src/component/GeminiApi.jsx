@@ -5,7 +5,7 @@ import { apiContext } from "../contextApi/Apidata";
 function GeminiApi(){
   let{value} = useContext(apiContext)
   let{setText} =useContext(apiContext)
-  const ai = new GoogleGenAI({ apiKey: "AIzaSyAWH2BEo4MnuK9vV7DU7pPA2t1cCdfrReg" });
+  const ai = new GoogleGenAI({ apiKey: "AIzaSyDzH8jOiEnFA93gvl2jarFYgLf6P7GYWzY" });
 
 
 
