@@ -5,8 +5,9 @@ import { apiContext } from "../contextApi/Apidata";
 function GeminiApi(){
   let{value} = useContext(apiContext)
   let{setText} =useContext(apiContext)
-  const ai = new GoogleGenAI({ apiKey: process.env.REACT_APP_GEMINI_API_KEY });
-
+  const ai = new GoogleGenAI({
+  apiKey: import.meta.env.VITE_GEMINI_KEY
+});
 
 
 let promt = "No chain-of-thought.\n\n" +
